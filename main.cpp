@@ -13,10 +13,10 @@ double m2inch(double metric) {
 }
 
 void help() {
-    std::cout  << "minch <argument> <value>" << std::endl;
-    std::cout << "--help [-h]\t\tPrintin this message\n";
-    std::cout << "--inch2metr [-i2m]\tInches into centimetres.\n";
-    std::cout << "--metr2inch [-m2i]\tСentimetres into шnches.\n";
+    std::cout  << "\e[1mminch\e[0m [\e[1margument\e[0m] <\e[1mvalue\e[0m>" << std::endl;
+    std::cout << "\e[1m--help [-h]\e[0m\t\tPrintin this message\n";
+    std::cout << "\e[1m--inch2metr [-i2m]\e[0m\tInches into centimetres.\n";
+    std::cout << "\e[1m--metr2inch [-m2i]\e[0m\tСentimetres into шnches.\n";
 
 }
 
